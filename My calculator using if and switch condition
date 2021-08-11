@@ -2,10 +2,10 @@ a=int(input("enter first number"))
 b=int(input("enter second number")) 
 c=input("enter a operation") 
 if(c=="addition"):
-  Printf("addition is", a+b) 
+  Print("addition is", a+b) 
 elif(c=="subtraction"):
-  Printf("subtraction is", a-b) 
+  Print("subtraction is", a-b) 
 elif(c=="division"):
-  Printf("division is", a/b) 
+  Print("division is", a/b) 
 else:
-  Printf(multiplication is", a*b) 
+  Print(multiplication is", a*b) 
