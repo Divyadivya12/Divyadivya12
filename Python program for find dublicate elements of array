@@ -1,0 +1,13 @@
+arr = []
+n = int(input("Enter the length of an array:"))
+for i in range(n):
+    x=int(input("Enter the value:"))
+    arr.append(x)
+print("Array:",arr)
+  
+for i in range(0, len(arr)):    
+    for j in range(i+1, len(arr)):    
+        if(arr[i] == arr[j]):    
+            print("Duplicate elements in given                            
+                       array: ");  
+            print(arr[j]);    
